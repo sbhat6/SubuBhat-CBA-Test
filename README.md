@@ -18,14 +18,15 @@ Features
 7. Logging with Log4Net for enhanced debugging and traceability.
 8. NUnit is used as the backbone framework to run the tests. 
 9. Allure Reporting for structured test results. Allure reports get generated as part of the Hooks after every test run and gets stored DATETIME-wise.
-10. Supports Parallel Execution to improve test performance.
+10. Test can run on CI pipeline on GitHub actions. [Refer notes].
+11. Supports Parallel Execution to improve test performance.
 
 
 Note
 
-The project does not ensure 100% test coverage. Just 1 or 2 tests for the main endpoints are showcased to demonstrate different ways of handling different types of requests and responses.
+1. The project does not ensure 100% test coverage. Just 1 or 2 tests for the main endpoints are showcased to demonstrate different ways of handling different types of requests and responses.
 It needs to be improved by adding more functional, negative and validation tests for each endpoint.
-
+2. CI/CD integration with GitHub Actions is still in progress and needs some more fixes to see a successful run. However, workflows, yml file etc. are already set up and able to show failed runs at this stage.
 
 Prerequisites
 
