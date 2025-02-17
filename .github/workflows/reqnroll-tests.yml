@@ -3,11 +3,10 @@
 on:
   push:
     branches:
-      - Test_PetStoreApi_Automation
+      - master
   pull_request:
     branches:
-      - Test_PetStoreApi_Automation
-
+      - master
 jobs:
   test:
     runs-on: windows-latest
