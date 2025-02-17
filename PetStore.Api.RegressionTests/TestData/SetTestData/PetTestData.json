@@ -1,0 +1,92 @@
+[
+  {
+    "id": 2241,
+    "category": {
+      "id": 224101,
+      "name": "Cats"
+    },
+    "name": "Cello",
+    "photoUrls": [
+      "NA"
+    ],
+    "tags": [
+      {
+        "id": 22410101,
+        "name": "Cello-22410101"
+      }
+    ],
+    "status": "available"
+  },
+  {
+    "id": 2242,
+    "category": {
+      "id": 224201,
+      "name": "Dogs"
+    },
+    "name": "Striker",
+    "photoUrls": [
+      "NA"
+    ],
+    "tags": [
+      {
+        "id": 22420101,
+        "name": "Striker-22420101"
+      }
+    ],
+    "status": "sold"
+  },
+  {
+    "id": 2243,
+    "category": {
+      "id": 224301,
+      "name": "Birds"
+    },
+    "name": "Snow",
+    "photoUrls": [
+      "NA"
+    ],
+    "tags": [
+      {
+        "id": 22430101,
+        "name": "Snow-22430101"
+      }
+    ],
+    "status": "sold"
+  },
+  {
+    "id": 2244,
+    "category": {
+      "id": 224401,
+      "name": "Rabbits"
+    },
+    "name": "Misty",
+    "photoUrls": [
+      "NA"
+    ],
+    "tags": [
+      {
+        "id": 22440101,
+        "name": "Misty-22440101"
+      }
+    ],
+    "status": "sold"
+  },
+  {
+    "id": 2245,
+    "category": {
+      "id": 224501,
+      "name": "Cats"
+    },
+    "name": "Aries",
+    "photoUrls": [
+      "NA"
+    ],
+    "tags": [
+      {
+        "id": 22450101,
+        "name": "Aries-22450101"
+      }
+    ],
+    "status": "sold"
+  }
+]

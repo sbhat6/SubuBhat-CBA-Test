@@ -1,0 +1,4 @@
+{
+    "BaseUrl": "https://petstore.swagger.io/v2/",
+    "AuthenticationKey": "special-key"
+}
