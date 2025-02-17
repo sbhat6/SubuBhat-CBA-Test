@@ -15,11 +15,12 @@ Features
 4. Advanced OOP concepts such as objects, constructors, method overloading, static, getters/setters etc. have been used and demonstrated.
 5. Useful techniques such as JsonSerializar, Reqnroll Data Table helpers, Reqnroll Hooks, exception handling etc. have been adapted.
 6. Coding is performed with the high sense of code reusability, easy maintenance and easy to understand.
-7. Logging with Log4Net for enhanced debugging and traceability.
-8. NUnit is used as the backbone framework to run the tests. 
-9. Allure Reporting for structured test results. Allure reports get generated as part of the Hooks after every test run and gets stored DATETIME-wise.
-10. Test can run on CI pipeline on GitHub actions. [Refer notes].
-11. Supports Parallel Execution to improve test performance.
+7. Required test data is always imported from the test framework, via a POST request to API, and deleted in the end so that tests are not prone to the public test data and not become flaky.
+8. Logging with Log4Net for enhanced debugging and traceability.
+9. NUnit is used as the backbone framework to run the tests. 
+10. Allure Reporting for structured test results. Allure reports get generated as part of the Hooks after every test run and gets stored DATETIME-wise.
+11. Test can run on CI pipeline on GitHub actions. [Refer notes].
+12. Supports Parallel Execution to improve test performance.
 
 
 Note
