@@ -3,14 +3,14 @@
 on:
   push:
     branches:
-      - main   # or your default branch (e.g., 'develop')
+      - Test_PetStoreApi_Automation
   pull_request:
     branches:
-      - main
+      - Test_PetStoreApi_Automation
 
 jobs:
   test:
-    runs-on: ubuntu-latest  # Use ubuntu, or switch to 'windows-latest' if using Windows runners
+    runs-on: windows-latest
 
     steps:
       - name: Checkout code
@@ -19,7 +19,7 @@ jobs:
       - name: Setup .NET SDK
         uses: actions/setup-dotnet@v3
         with:
-          dotnet-version: '8.0.x'  # Adjust to match your .NET version
+          dotnet-version: '8.0'
 
       - name: Restore dependencies
         run: dotnet restore
