@@ -9,16 +9,16 @@ It is designed to test the functionality of the Pet Store API https://petstore.s
 
 Features
 
->Uses the latest Reqnroll version considering the decommissioning of SpecFLow from .net 8.0.
->API Testing is achieved with RestSharp librabry for sending HTTP requests and handling responses, which is much faster and has built-in serialization.
->Assertions using Fluent Assertions for improved test readability and maintainability.
->Advanced OOP concepts such as objects, constructors, method overloading, static, getters/setters etc. have been used and demonstrated.
->Useful techniques such as JsonSerializar, Reqnroll Data Table helpers, Reqnroll Hooks, exception handling etc. have been adapted.
->Coding is performed with the high sense of code reusability, easy maintenance and easy to understand.
->Logging with Log4Net for enhanced debugging and traceability.
->NUnit is used as the backbone framework to run the tests. 
->Allure Reporting for structured test results. Allure reports get generated as part of the Hooks after every test run and gets stored DATETIME-wise.
->Supports Parallel Execution to improve test performance.
+1. Uses the latest Reqnroll version considering the decommissioning of SpecFLow from .net 8.0.
+2. API Testing is achieved with RestSharp librabry for sending HTTP requests and handling responses, which is much faster and has built-in serialization.
+3. Assertions using Fluent Assertions for improved test readability and maintainability.
+4. Advanced OOP concepts such as objects, constructors, method overloading, static, getters/setters etc. have been used and demonstrated.
+5. Useful techniques such as JsonSerializar, Reqnroll Data Table helpers, Reqnroll Hooks, exception handling etc. have been adapted.
+6. Coding is performed with the high sense of code reusability, easy maintenance and easy to understand.
+7. Logging with Log4Net for enhanced debugging and traceability.
+8. NUnit is used as the backbone framework to run the tests. 
+9. Allure Reporting for structured test results. Allure reports get generated as part of the Hooks after every test run and gets stored DATETIME-wise.
+10. Supports Parallel Execution to improve test performance.
 
 
 Note
